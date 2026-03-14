@@ -22,7 +22,6 @@ def analyze():
 
     if not text:
         return jsonify({"error": "Field 'text' is required and cannot be empty"}), 400
-
     try:
         prediction = predict_news(text)
         suspicious = highlight_claims(text)

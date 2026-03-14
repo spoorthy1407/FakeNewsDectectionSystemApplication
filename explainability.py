@@ -20,7 +20,6 @@ def highlight_claims(text):
 
     return found
 
-
 def explain_claims(text):
 
     explanations = []
